@@ -1,4 +1,4 @@
-import pool from "../db/conexao";
+import pool from "../db/conexao.js";
 
 async function executaQuery(conexao, query) {
     const resultado_query = await conexao.query(query);
